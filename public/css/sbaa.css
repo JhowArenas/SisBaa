@@ -1,0 +1,303 @@
+/*!
+ * Start Bootstrap - Coming Soon v5.0.0 (https://startbootstrap.com/template-overviews/coming-soon)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-coming-soon/blob/master/LICENSE)
+ */
+html {
+  height: 100%
+}
+
+body {
+  height: 100%;
+  min-height: 35rem;
+  position: relative;
+  font-family: 'Source Sans Pro';
+  font-weight: 300
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Merriweather;
+  font-weight: 700
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0
+}
+
+@media (pointer: coarse) and (hover: none) {
+  body {
+    background-position: cover
+  }
+
+  body video {
+    display: none
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: .7;
+  z-index: 1
+}
+
+.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 3rem;
+  z-index: 2
+}
+
+.masthead .masthead-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  min-height: 35rem;
+  height: 100%;
+  background-color: rgb(45, 62, 115);
+  -webkit-transform: skewY(4deg);
+  transform: skewY(4deg);
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom right
+}
+
+.masthead .masthead-content h1 {
+  font-size: 2.5rem
+}
+
+.masthead .masthead-content p {
+  font-size: 1.2rem
+}
+
+.masthead .masthead-content p strong {
+  font-weight: 700
+}
+
+.masthead .masthead-content .input-group-newsletter input {
+  height: auto;
+  font-size: 1rem;
+  padding: 1rem
+}
+
+.masthead .masthead-content .input-group-newsletter button {
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    height: 100%;
+    min-height: 0;
+    width: 30rem;
+    padding-bottom: 0
+  }
+
+  .masthead .masthead-bg {
+    min-height: 0;
+    -webkit-transform: skewX(-8deg);
+    transform: skewX(-8deg);
+    -webkit-transform-origin: top right;
+    transform-origin: top right
+  }
+
+  .masthead .masthead-content {
+    padding-left: 3rem;
+    padding-right: 10rem
+  }
+
+  .masthead .masthead-content h1 {
+    font-size: 3.5rem
+  }
+
+  .masthead .masthead-content p {
+    font-size: 1.3rem
+  }
+}
+
+.social-icons {
+  position: absolute;
+  margin-bottom: 2rem;
+  width: 100%;
+  z-index: 2
+}
+
+.social-icons ul {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center
+}
+
+.social-icons ul > li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: inline-block
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: rgb(45, 62, 115);
+  background-color: rgb(45, 62, 115);
+  border-radius: 100%;
+  font-size: 2rem;
+  line-height: 4rem;
+  height: 4rem;
+  width: 4rem
+}
+
+@media (min-width: 768px) {
+  .social-icons {
+    margin: 0;
+    position: absolute;
+    right: 2.5rem;
+    bottom: 1rem;
+    width: auto
+  }
+
+  .social-icons ul {
+    margin-top: 0;
+    width: auto
+  }
+
+  .social-icons ul > li {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem
+  }
+
+  .social-icons ul > li:last-child {
+    margin-bottom: 0
+  }
+
+  .social-icons ul > li > a {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-size: 2rem;
+    line-height: 4rem;
+    height: 4rem;
+    width: 4rem
+  }
+
+
+}
+
+.lupa{
+  border-bottom-right-radius: .25rem;
+  border-top-right-radius: .25rem;
+  background-color:gray;
+  opacity: 0.5;
+  transition: 1.2s
+}
+
+.lupa > img{
+  opacity: 0.5;
+  transition: 1.2s
+}
+
+.lupa:hover{
+  border-bottom-right-radius: .25rem;
+  border-top-right-radius: .25rem;
+  background-color:gray;
+  opacity: 0.9;
+  transition: 1.2s
+}
+
+.lupa:hover > img{
+  opacity: 1;
+  transition: 1.2s
+}
+
+.input {
+  font-weight: 300 !important
+}
+
+.social-icons ul > li > a:hover{
+  background-color: #f8f9fa;
+  border:.2rem solid rgb(10, 53, 107);
+  transition: 1s;
+}
+
+.videoaulas{
+  position: absolute;
+  top: 2px;
+  left: -145px;
+  font-size: smaller;
+  font-weight: 600;
+  opacity: 1;
+  transition: .5s;
+}
+
+a:hover div.videoaulas, .videoaulas:hover{
+  opacity: 1;
+  color: rgb(10, 53, 107);
+  transition: .5s;
+}
+
+.addfontes{
+  position: absolute;
+  top: 84px;
+  left: -290px;
+  font-size: smaller;
+  font-weight: 600;
+  opacity: 1;
+  transition: 1.0s;
+}
+
+a:hover div.addfontes, .addfontes:hover{
+  opacity: 1;
+  color: rgb(10, 53, 107);
+  transition: .5s;
+}
+
+.helloRobot{
+  position: absolute;
+  bottom: 1rem;
+}
+
+.logo{
+  position: absolute;
+  left: 15%;
+  top: 28px;
+}
+
+.positionSearchHome{
+  width: 75%;
+  height: fit-content;
+}
+.positionSearchHome input{
+  font-size: 20px;
+  height: 60px;
+}
+
+.btn-outline-sbaa{
+  color: #f8f9fa!important;
+  background-color: #2d3e73;
+  background-image: none;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-sbaa:hover, .btn-outline-sbaa:active{
+  color: #2d3e73!important;
+  background-color: #f8f9fa;
+  background-image: none;
+  border-color: #2d3e73;
+}
