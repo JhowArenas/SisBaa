@@ -54,9 +54,6 @@
                                     <option value="Fatec Bauru - Banco de Dados">Fatec Bauru - Banco de Dados</option>
                                 </select>
 
-                                {!! Form::label('cidade', 'Cidade', [ 'class' => 'col-md-4 col-form-label text-md-right mb-3']) !!}
-
-
                         </div>
                         {!! Form::close() !!}
 

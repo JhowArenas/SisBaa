@@ -112,8 +112,8 @@
                             </a>
                         </li>
                         <li class="list-unstyled-item">
-                            <a href="#">
-                                <div class="addfontes">Adicione um novo filtro!!</div>
+                            <a href="{{ url('controle') }}">
+                                <div class="addfontes">Controle!!</div>
                             </a>
                         </li>
                     </ul>

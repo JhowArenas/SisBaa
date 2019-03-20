@@ -16,6 +16,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/playlist', 'VideosController@playlists')->name('home');
 Route::get('/videos/1', 'VideosController@videosAds')->name('home');
+Route::get('/controle', 'infoUsersController@index')->name('home');
 
 Route::get('/', function () {
     return view('welcome');

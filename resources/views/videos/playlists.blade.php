@@ -29,7 +29,7 @@
                                     <img class="card-img-top" src="img/fatecGarca.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Playlist Curso -<br> G.E.</h5>
-                                        <a data-toggle="modal" data-target="#modal1" class="btn btn-outline-sbaa w-100">Selecionar
+                                        <a href="{{url('videos/1')}}" data-toggle="modal" data-target="#modal1" class="btn btn-outline-sbaa w-100">Selecionar
                                             Curso</a>
                                     </div>
                                 </div>
@@ -37,7 +37,7 @@
                                     <img class="card-img-top" src="img/fatecGarca.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Playlist Curso - Mecatronica</h5>
-                                        <a data-toggle="modal" data-target="#modal1" class="btn btn-outline-sbaa w-100">Selecionar
+                                        <a href="{{url('videos/1')}}" data-toggle="modal" data-target="#modal1" class="btn btn-outline-sbaa w-100">Selecionar
                                             Curso</a>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@
                                     <img class="card-img-top" src="img/fatecGarca.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title text-center">Playlist Curso -<br>Banco de Dados</h5>
-                                        <a data-toggle="modal" data-target="#modal1" class="btn btn-outline-sbaa w-100">Selecionar
+                                        <a href="{{url('videos/1')}}" data-toggle="modal" data-target="#modal1" class="btn btn-outline-sbaa w-100">Selecionar
                                             Curso</a>
                                     </div>
                                 </div>

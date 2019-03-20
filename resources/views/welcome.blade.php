@@ -12,7 +12,7 @@
                 <div class="modal-body mb-0 p-0">
                     <div class="row h-100 justify-content-center align-items-center align-self-center">
                         <div class="col-md-8">
-                            <div class="card">
+                            <div class="card my-5">
                                 <div class="card-header">{{ __('Login') }}</div>
 
                                 <div class="card-body">
